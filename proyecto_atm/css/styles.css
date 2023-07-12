@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+body{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,50,0.8), rgba(0,0,50,0.8)), url(https://cdn.pixabay.com/photo/2012/03/04/00/43/architecture-22039_1280.jpg);
+    background-size: cover;
+}
+
+.form{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 60px 70px;
+}
+
+.form h2{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(95, 55, 165);
+    position: relative;
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    overflow: hidden;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.forgot {
+    font-weight: 300;
+}
+
+.forgot-pass{
+    text-align: left;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    flex-basis: 100%;
+    background-color: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.input-group{
+    height: 200px;
+}
+
+.btn button.disable{
+    background-color: #eaeaea;
+    color: #555;
+}
+
+.container-atm{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 60px 70px;
+}
+
+#acc-info{
+    color: rgb(95, 55, 165);
+    margin-bottom: 30px;
+}
+
+#currentSavings{
+    color: rgb(59, 59, 59);
+    margin-bottom: 30px;
+}
+
+.btn-atm{
+    flex-basis: 48%;
+    background-color: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn-logout {
+    flex-basis: 100%;
+    color: #fff;
+    margin-top: 50px;
+    background-color: rgb(171, 171, 171);
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    line-height: 40px;
+}
